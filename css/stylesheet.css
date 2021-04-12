@@ -1,0 +1,86 @@
+body{
+    text-align: center;
+    background-image: url(../img/1.jpg);
+    
+}
+.content{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.passcard{
+    font-size: 21px; 
+    border-radius: 2rem;
+    width: 8rem; 
+    height:2rem;
+}
+.drawbutton{
+    font-size: 21px; 
+    border-radius: 2rem;
+    width: 8rem; 
+    height:2rem;
+}
+.countbutton{
+    font-size: 21px; 
+    border-radius: 2rem;
+    width: 8rem; 
+    height:2rem;
+}
+.reset{
+    font-size: 21px; 
+    border-radius: 2rem;
+    width: 8rem; 
+    height:2rem;
+}
+.playercard{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.count{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.card1{
+    font-size: 21px; 
+    border-radius: 2rem;
+    width: 11rem; 
+    height:27px;
+    text-align: center;
+
+
+}
+.card2{
+    font-size: 21px; 
+    border-radius: 2rem;
+    width: 11rem; 
+    height:27px;
+    text-align: center;
+
+}
+.card3{
+    font-size: 21px; 
+    border-radius: 2rem;
+    width: 11rem; 
+    height:27px;
+    text-align: center;
+
+}
+.card4{
+    font-size: 21px; 
+    border-radius: 2rem;
+    width: 11rem; 
+    height:27px;
+    text-align: center;
+
+}
+.card5{
+    font-size: 21px; 
+    border-radius: 2rem;
+    width: 11rem; 
+    height:27px;
+    text-align: center;
+
+}
+h1{
+    font-size: 50px;
+}

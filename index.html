@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Card Counting</title>
+</head>
+<body>
+    <div>
+        <h1 >Blackjack Card Counting</h1>
+        <form name="myform">
+            <h2>Player's Cards:</h2>
+            <div class="playercard"></div>
+            <br>
+            <h2>Bet Count</h2>
+            <div class="count"></div>
+            <h1>Input Player Cards</h1>
+            <input type="text" class="card1">
+            <br>
+            <br>
+            <input type="text" class="card2">
+            <br>
+            <br>
+            <input type="text" class="card3">
+            <br>
+            <br>
+            <input type="text" class="card4">
+            <br>
+            <br>
+            <input type="text" class="card5">
+            <br>
+            <br>
+            <button class='passcard' onclick="submitcards(); return false">ENTER</button>
+            <button class="drawbutton" onclick="showScore(); return false">DRAW</button>
+            <button class="countbutton" onclick="countingcards(); return false">BET</button>
+            <button class="reset" onclick="resetIt(); return false">RESET</button>
+        </form> 
+    </div>
+    
+</body>
+<script src="js/main.js"></script>
+
+</html>
